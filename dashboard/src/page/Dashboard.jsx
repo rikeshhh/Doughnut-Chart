@@ -1,5 +1,4 @@
 
-import Datas from "../Data";
 import { FaChevronDown } from "react-icons/fa";
 import Receipt from "../assets/Receipt.png";
 import { DashboarsData } from "./Component/DashboarsData";
@@ -17,7 +16,7 @@ export const Dashboard = (prop) => {
         </div>
         <div className="flex max-sm:flex-col">
           <div className="w-96 px-11 mx-auto my-0">
-           <Doughnuts Datas={Datas}/>
+           <Doughnuts />
           </div>
           <div className="flex flex-col justify-center items-center gap-4">
             <form className="w-full">
@@ -33,7 +32,7 @@ export const Dashboard = (prop) => {
                 <FaChevronDown className="absolute right-3 mx-0 my-auto " />
               </div>
             </form>
-           <DashboarsData Datas={Datas}/>
+           <DashboarsData />
           </div>
         </div>
     </section>

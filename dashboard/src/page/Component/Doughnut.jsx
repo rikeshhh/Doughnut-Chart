@@ -1,13 +1,15 @@
 import { Doughnut } from "react-chartjs-2";
 import { Chart as ChartJs, ArcElement, Tooltip, Legend } from "chart.js";
+import Datas from "../../Data";
+
 ChartJs.register(ArcElement, Tooltip, Legend);
-const Doughnuts = (prop) => {
-    const totalAmount = prop.reduce((sum, item) => sum + item.amount, 0);
+const Doughnuts = () => {
+    const totalAmount = Datas.reduce((sum, item) => sum + item.amount, 0);
     const dataTwo = {
       labels: [],
       datasets: [
         {
-          data: prop.map((item) => item.amount),
+          data: Datas.map((item) => item.amount),
   
           backgroundColor: [
             "#B22222",
