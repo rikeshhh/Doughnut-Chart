@@ -1,4 +1,3 @@
-import { FaChevronDown } from "react-icons/fa";
 import Datas from "../Data";
 import Receipt from "../assets/Receipt.png";
 import { DashboarsData } from "./Component/DashboarsData";
@@ -30,7 +29,7 @@ export const Dashboard = (prop) => {
               <FaChevronDown className="absolute right-3 mx-0 my-auto " /> */}
             <select name="" id="" className="w-full py-2 px-3 font-normal text-base">
 {Datas.map((item)=>(
-  <option value={item.title}>{item.title}</option>
+  <option key={item.id} value={item.title}>{item.title}</option>
 ))}
             </select>
             </div>

@@ -3,7 +3,7 @@ import Datas from "../../Data";
 
 export const DashboarsData = () => {
   return (
-    <div className="grid grid-cols-2 grid-rows-3 gap-4 max-sm:grid-cols-1 items-center">
+    <div className="grid grid-cols-2 grid-rows-3 gap-4 max-sm:grid-cols-1 items-center max-md:grid-cols-1 max-lg:grid-cols-1">
     {Datas.map((item) => (
       <div
         key={item.id}
