@@ -11,7 +11,7 @@ const Data = [
       "id": 2,
       "title": "PIPE",
       "percentage": 8.5,
-      "amount": 30122,
+      "amount": 30122.24,
       "borderLeft":"border-l-4 border-[#0A51A4]"
     },
     {
@@ -25,7 +25,7 @@ const Data = [
       "id": 4,
       "title": "Auto Repair",
       "percentage": 8.5,
-      "amount": 30122,
+      "amount": 30122.24,
       "borderLeft":"border-l-4 border-[#068EB9]"
 
     },
@@ -41,7 +41,7 @@ const Data = [
       "id": 6,
       "title": "Medical",
       "percentage": 8.5,
-      "amount": 30122,
+      "amount": 30122.24,
       "borderLeft":"border-l-4 border-[#B24D22]"
     }
   ]

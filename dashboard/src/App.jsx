@@ -4,10 +4,8 @@ const App = () => {
 
   return (
    <>
-   hhh
    <Dashboard header="Expenditure"/>
    <Dashboard header="Brands"/>
-
    </>
   );
 };

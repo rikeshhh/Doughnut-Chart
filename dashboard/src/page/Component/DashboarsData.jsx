@@ -18,7 +18,7 @@ export const DashboarsData = () => {
         </div>
         <div className="flex justify-between">
           <div className="italic font-bold text-lg">
-            ${item.amount}
+            ${item.amount.toLocaleString()}
           </div>
           <div className="text-base font-normal">vs last year</div>
         </div>
