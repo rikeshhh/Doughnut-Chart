@@ -1,9 +1,12 @@
 import { Dashboard } from './Dashboard';
+import './App.css'
 const App = () => {
 
   return (
    <>
-   <Dashboard/>
+   <Dashboard header="Expenditure"/>
+   <Dashboard header="Brands"/>
+
    </>
   );
 };
