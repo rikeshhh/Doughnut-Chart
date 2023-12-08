@@ -1,6 +1,6 @@
 import Datas from "../Data";
 import Receipt from "../assets/Receipt.png";
-import { DashboarsData } from "./Component/DashboarsData";
+import { DoughData } from "./Component/DoughData";
 import Doughnuts from "./Component/Doughnut";
 export const Dashboard = (prop) => {
   return (
@@ -27,14 +27,21 @@ export const Dashboard = (prop) => {
                 placeholder="Select"
               />
               <FaChevronDown className="absolute right-3 mx-0 my-auto " /> */}
-            <select name="" id="" className="w-full py-2 px-3 font-normal text-base">
-{Datas.map((item)=>(
-  <option key={item.id} value={item.title}>{item.title}</option>
-))}
-            </select>
+              <select
+                name=""
+                id=""
+                className="w-full py-2 px-3 font-normal text-base"
+              >
+                <option value="Select">Select</option>
+                {Datas.map((item) => (
+                  <option key={item.id} value={item.title}>
+                    {item.title}
+                  </option>
+                ))}
+              </select>
             </div>
           </form>
-          <DashboarsData />
+          <DoughData />
         </div>
       </div>
     </section>
