@@ -2,8 +2,8 @@ body{
   font-family: 'Barlow Condensed', sans-serif;
 }
 .main-container{
-  max-width: calc(930px + 24px);
+  max-width: calc(906px + 48px);
   width: 100%;
   margin: 0 auto;
-  padding: 14px 14px;
+  padding: 24px 24px;
 }
