@@ -4,15 +4,15 @@ import { DoughData } from "./Component/DoughData";
 import Doughnuts from "./Component/Doughnut";
 export const Dashboard = (prop) => {
   return (
-    <section className="main-container flex flex-col gap-6 w-full">
+    <section className="main-container flex flex-col  w-full">
       <div className="flex justify-start items-center gap-2 text-2xl font-bold italic">
         <figure className="bg-[#E6F4FA] p-2">
           <img src={Receipt} alt="" className="z-50" />
         </figure>
         <h1>Expenditure by {prop.header}</h1>
       </div>
-      <div className="flex max-sm:flex-col">
-        <div className="w-96 px-11 mx-auto my-0">
+      <div className="flex max-sm:flex-col gap-6">
+        <div className="w-96  mx-auto my-0">
           <Doughnuts />
         </div>
         <div className="flex flex-col justify-center items-center gap-4">

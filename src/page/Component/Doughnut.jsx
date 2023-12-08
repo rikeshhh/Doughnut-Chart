@@ -23,7 +23,7 @@ const Doughnuts = () => {
     ],
   };
   const options = {
-    cutout: 115,
+    cutout: 140,
   };
   const textCenter = {
     id: "textCenter",
