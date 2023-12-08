@@ -42,11 +42,11 @@ const Doughnuts = () => {
       ctx.fillText("Total Saving", width / 2, height / 2 + top - 46);
       ctx.restore();
 
-      ctx.font = `bolder ${amountHeight}px Barlow Condensed`;
+      ctx.font = `bolder italic ${amountHeight}px Barlow Condensed`;
       ctx.fillStyle = "rgba(15, 16, 16, 1)";
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
-      ctx.fillText(`${"$" + "" + totalAmount}`, width / 2, height / 2 + top);
+      ctx.fillText(`${"$"+"" + "" + totalAmount}`, width / 2, height / 2 + top);
 
       ctx.restore();
       ctx.font = `normal ${fontHeight}px Barlow Condensed`;

@@ -12,7 +12,7 @@ export const Dashboard = (prop) => {
         <h1>Expenditure by {prop.header}</h1>
       </div>
       <div className="flex max-sm:flex-col gap-6">
-        <div className="w-96  mx-auto my-0">
+        <div className="w-96  max-sm:w-80">
           <Doughnuts />
         </div>
         <div className="flex flex-col justify-center items-center gap-4">
